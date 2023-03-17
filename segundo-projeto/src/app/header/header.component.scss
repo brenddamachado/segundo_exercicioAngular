@@ -1,10 +1,12 @@
+
+
 .cabecalho {
 
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+  
     height: 60px;
     color: black;
 }
@@ -17,7 +19,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 8px;
-background-color: rgb(255, 255, 255);
+background-color: #f2f2f2;
 }
 .navbar {
     text-transform: uppercase;
