@@ -1,23 +1,27 @@
-.container {
-    margin-left: 20px;
-    display: flex;
+.container-main {
+  margin-left: 20px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-    
-  }
+  margin-top: 40px;
   
- h3{
-    padding-top: 20px;
 }
 
-img{
-    margin-top: 20px;
-width: 300px;
-
+img {
+  margin-top: 20px;
+  width: 300px;
 }
 
-.sobre{
-    margin-top: 10px;
-    margin-left: 50px;
+p {
+  margin-top: 5px;
 }
 
+@media screen and (max-width: 575px) {
+  .container-main {
+    margin: 20px auto;
+  }
+
+  img {
+    width: 100%;
+  }
+}
