@@ -1,26 +1,26 @@
-
-
 .cabecalho {
 
-    background-color: aquamarine;
+    background-color: rgb(165, 105, 36);
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
     height: 60px;
-    color: black;
+    color: white;
 }
-.pix{
-   font-size: 20px;
-font-family: Raleway,sans-serif;
-text-transform: none;
-font-size: 1rem;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 8px;
-background-color: #f2f2f2;
+
+.pix {
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    text-transform: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #f2f2f2;
 }
+
 .navbar {
     text-transform: uppercase;
 
@@ -43,5 +43,5 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
